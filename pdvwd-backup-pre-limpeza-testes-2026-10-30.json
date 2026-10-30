@@ -1,0 +1,790 @@
+{
+  "D": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Água mineral 500ml",
+        "sku": "BEB-001",
+        "category": "Bebidas",
+        "price": 35,
+        "cost_price": 10,
+        "unit": "un",
+        "sector": "bar",
+        "stock": 80,
+        "min_stock": 5,
+        "icon": "💧",
+        "promo_price": 0
+      },
+      {
+        "id": 2,
+        "name": "Refrigerante lata",
+        "sku": "BEB-002",
+        "category": "Bebidas",
+        "price": 60,
+        "cost_price": 25,
+        "unit": "un",
+        "sector": "bar",
+        "stock": 42,
+        "min_stock": 5,
+        "icon": "🥤",
+        "promo_price": 0
+      },
+      {
+        "id": 3,
+        "name": "Café expresso",
+        "sku": "CAF-001",
+        "category": "Cafeteria",
+        "price": 75,
+        "cost_price": 18,
+        "unit": "un",
+        "sector": "bar",
+        "stock": 120,
+        "min_stock": 5,
+        "icon": "☕",
+        "promo_price": 0
+      },
+      {
+        "id": 4,
+        "name": "Sanduíche misto",
+        "sku": "LAN-001",
+        "category": "Comidas",
+        "price": 180,
+        "cost_price": 60,
+        "unit": "un",
+        "sector": "cozinha",
+        "stock": 24,
+        "min_stock": 5,
+        "icon": "🥪",
+        "promo_price": 0
+      },
+      {
+        "id": 5,
+        "name": "Hambúrguer clássico",
+        "sku": "LAN-002",
+        "category": "Comidas",
+        "price": 320,
+        "cost_price": 110,
+        "unit": "un",
+        "sector": "cozinha",
+        "stock": 15,
+        "min_stock": 5,
+        "icon": "🍔",
+        "promo_price": 0
+      },
+      {
+        "id": 6,
+        "name": "Batatas fritas",
+        "sku": "LAN-003",
+        "category": "Comidas",
+        "price": 140,
+        "cost_price": 45,
+        "unit": "un",
+        "sector": "cozinha",
+        "stock": 20,
+        "min_stock": 5,
+        "icon": "🍟",
+        "promo_price": 0
+      },
+      {
+        "id": 7,
+        "name": "Arroz (1 kg)",
+        "sku": "RET-001",
+        "category": "Retalho",
+        "price": 95,
+        "cost_price": 70,
+        "unit": "kg",
+        "sector": "bar",
+        "stock": 55,
+        "min_stock": 5,
+        "icon": "🍚",
+        "promo_price": 0
+      },
+      {
+        "id": 8,
+        "name": "Óleo alimentar 1L",
+        "sku": "RET-002",
+        "category": "Retalho",
+        "price": 150,
+        "cost_price": 95,
+        "unit": "un",
+        "sector": "bar",
+        "stock": 18,
+        "min_stock": 5,
+        "icon": "🛢️",
+        "promo_price": 0
+      },
+      {
+        "id": 9,
+        "name": "Bolo de fatia",
+        "sku": "DOC-001",
+        "category": "Pastelaria",
+        "price": 110,
+        "cost_price": 40,
+        "unit": "un",
+        "sector": "cozinha",
+        "stock": 9,
+        "min_stock": 5,
+        "icon": "🍰",
+        "promo_price": 0
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "Cliente balcão",
+        "phone": "",
+        "email": "",
+        "notes": ""
+      }
+    ],
+    "sales": [],
+    "cash_sessions": [
+      {
+        "id": "CX-MVSGCA7O",
+        "initial": 1000,
+        "opened_by": "super",
+        "opened_by_name": "Super Administrador",
+        "created_at": "2026-10-28T18:32:42.420Z"
+      }
+    ],
+    "cash_movements": [],
+    "settings": [
+      {
+        "key": "business",
+        "value": "PDV-WD"
+      },
+      {
+        "key": "taxRate",
+        "value": 16
+      },
+      {
+        "key": "allow_negative_stock",
+        "value": false
+      },
+      {
+        "key": "commission",
+        "value": 0
+      },
+      {
+        "key": "promo",
+        "value": {
+          "active": false,
+          "from": "17:00",
+          "to": "19:00"
+        }
+      }
+    ],
+    "profiles": [
+      {
+        "id": "adm-1",
+        "name": "Administrador",
+        "role": "gerente",
+        "active": true,
+        "pin_hash": "edee29f882543b956620b26d0ee0e7e950399b1c4222f5de05e06425b4c995e9",
+        "created_at": "2026-10-28T18:19:41.159Z"
+      },
+      {
+        "id": "usr-mvsg083s",
+        "name": "Cleide",
+        "role": "operador_caixa",
+        "active": true,
+        "pin_hash": "0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c",
+        "created_at": "2026-10-28T18:23:19.816Z"
+      },
+      {
+        "id": "usr-mvtrm5v4",
+        "name": "Carlos",
+        "role": "vendedor",
+        "active": true,
+        "pin_hash": "73a2af8864fc500fa49048bf3003776c19938f360e56bd03663866fb3087884a",
+        "created_at": "2026-10-29T16:36:05.296Z"
+      }
+    ],
+    "tables": [
+      {
+        "id": 1,
+        "label": "Mesa 1",
+        "sector": "sala",
+        "status": "ocupada"
+      },
+      {
+        "id": 2,
+        "label": "Mesa 2",
+        "sector": "sala",
+        "status": "ocupada"
+      },
+      {
+        "id": 3,
+        "label": "Mesa 3",
+        "sector": "sala",
+        "status": "ocupada"
+      },
+      {
+        "id": 4,
+        "label": "Mesa 4",
+        "sector": "sala",
+        "status": "ocupada"
+      },
+      {
+        "id": 5,
+        "label": "Mesa 5",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 6,
+        "label": "Mesa 6",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 7,
+        "label": "Mesa 7",
+        "sector": "sala",
+        "status": "ocupada"
+      },
+      {
+        "id": 8,
+        "label": "Mesa 8",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 9,
+        "label": "Mesa 9",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 10,
+        "label": "Mesa 10",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 11,
+        "label": "Mesa 11",
+        "sector": "sala",
+        "status": "livre"
+      },
+      {
+        "id": 12,
+        "label": "Mesa 12",
+        "sector": "sala",
+        "status": "livre"
+      }
+    ],
+    "bills": [
+      {
+        "id": "C-MVSGA59H",
+        "table_id": 1,
+        "opened_by": "super",
+        "opened_by_name": "Super Administrador",
+        "status": "conta_solicitada",
+        "total": 430,
+        "created_at": "2026-10-28T18:31:02.696Z"
+      },
+      {
+        "id": "C-MVSGGVM5",
+        "table_id": 2,
+        "opened_by": "usr-mvsg083s",
+        "opened_by_name": "Cleide",
+        "status": "aberta",
+        "total": 0,
+        "created_at": "2026-10-28T18:36:16.781Z"
+      },
+      {
+        "id": "C-MVTRINE1",
+        "table_id": 4,
+        "opened_by": "super",
+        "opened_by_name": "Super Administrador",
+        "status": "aberta",
+        "total": 0,
+        "created_at": "2026-10-29T16:33:21.386Z"
+      },
+      {
+        "id": "C-MVTRL86D",
+        "table_id": 3,
+        "opened_by": "super",
+        "opened_by_name": "Super Administrador",
+        "status": "conta_solicitada",
+        "total": 35,
+        "created_at": "2026-10-29T16:35:21.638Z"
+      },
+      {
+        "id": "C-MVTRMWUO",
+        "table_id": 7,
+        "opened_by": "usr-mvtrm5v4",
+        "opened_by_name": "Carlos",
+        "status": "aberta",
+        "total": 60,
+        "created_at": "2026-10-29T16:36:40.272Z"
+      }
+    ],
+    "bill_items": [
+      {
+        "bill_id": "C-MVSGA59H",
+        "product_id": 1,
+        "name": "Água mineral 500ml",
+        "price": 35,
+        "qty": 1,
+        "sector": "bar",
+        "status": "enviado",
+        "id": 1,
+        "created_at": "2026-10-28T18:31:10.533Z"
+      },
+      {
+        "bill_id": "C-MVSGA59H",
+        "product_id": 3,
+        "name": "Café expresso",
+        "price": 75,
+        "qty": 1,
+        "sector": "bar",
+        "status": "enviado",
+        "id": 2,
+        "created_at": "2026-10-28T18:31:13.918Z"
+      },
+      {
+        "bill_id": "C-MVSGA59H",
+        "product_id": 5,
+        "name": "Hambúrguer clássico",
+        "price": 320,
+        "qty": 1,
+        "sector": "cozinha",
+        "status": "enviado",
+        "id": 3,
+        "created_at": "2026-10-28T18:31:15.959Z"
+      },
+      {
+        "bill_id": "C-MVTRL86D",
+        "product_id": 1,
+        "name": "Água mineral 500ml",
+        "price": 35,
+        "qty": 1,
+        "sector": "bar",
+        "status": "pendente",
+        "id": 4,
+        "created_at": "2026-10-29T16:35:27.516Z"
+      },
+      {
+        "bill_id": "C-MVTRMWUO",
+        "product_id": 2,
+        "name": "Refrigerante lata",
+        "price": 60,
+        "qty": 1,
+        "sector": "bar",
+        "status": "pendente",
+        "id": 5,
+        "created_at": "2026-10-29T16:36:52.488Z"
+      }
+    ],
+    "stock_levels": [
+      {
+        "product_id": 1,
+        "location": "bar",
+        "qty": 80
+      },
+      {
+        "product_id": 2,
+        "location": "bar",
+        "qty": 42
+      },
+      {
+        "product_id": 3,
+        "location": "bar",
+        "qty": 120
+      },
+      {
+        "product_id": 4,
+        "location": "bar",
+        "qty": 24
+      },
+      {
+        "product_id": 5,
+        "location": "bar",
+        "qty": 15
+      },
+      {
+        "product_id": 6,
+        "location": "bar",
+        "qty": 20
+      },
+      {
+        "product_id": 7,
+        "location": "bar",
+        "qty": 55
+      },
+      {
+        "product_id": 8,
+        "location": "bar",
+        "qty": 18
+      },
+      {
+        "product_id": 9,
+        "location": "bar",
+        "qty": 9
+      }
+    ],
+    "stock_movements": [],
+    "supplier_invoices": [],
+    "invoice_items": [],
+    "operating_days": [
+      {
+        "date": "2026-10-28",
+        "opened_by": "super",
+        "opened_by_name": "Super Administrador",
+        "status": "aberto"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": 1,
+        "table_name": "profiles",
+        "row_id": "usr-mvsg083s",
+        "action": "USER_CREATE",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:23:19.817Z"
+      },
+      {
+        "id": 2,
+        "table_name": "bills",
+        "row_id": "C-MVSGA59H",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:31:02.694Z"
+      },
+      {
+        "id": 3,
+        "table_name": "bill_items",
+        "row_id": "undefined",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:31:10.533Z"
+      },
+      {
+        "id": 4,
+        "table_name": "bill_items",
+        "row_id": "undefined",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:31:13.918Z"
+      },
+      {
+        "id": 5,
+        "table_name": "bill_items",
+        "row_id": "undefined",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:31:15.959Z"
+      },
+      {
+        "id": 6,
+        "table_name": "bills",
+        "row_id": "C-MVSGA59H",
+        "action": "UPDATE:pedido_enviado",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:31:30.432Z"
+      },
+      {
+        "id": 7,
+        "table_name": "operating_days",
+        "row_id": "2026-10-28",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:32:34.860Z"
+      },
+      {
+        "id": 8,
+        "table_name": "cash_sessions",
+        "row_id": "CX-MVSGCA7O",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-28T18:32:42.420Z"
+      },
+      {
+        "id": 9,
+        "table_name": "bills",
+        "row_id": "C-MVSGGVM5",
+        "action": "INSERT",
+        "actor": "usr-mvsg083s",
+        "actor_name": "Cleide",
+        "at": "2026-10-28T18:36:16.781Z"
+      },
+      {
+        "id": 10,
+        "table_name": "bills",
+        "row_id": "C-MVSGA59H",
+        "action": "UPDATE:conta_solicitada",
+        "actor": "usr-mvsg083s",
+        "actor_name": "Cleide",
+        "at": "2026-10-29T16:22:04.978Z"
+      },
+      {
+        "id": 11,
+        "table_name": "bills",
+        "row_id": "C-MVTRINE1",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-29T16:33:21.386Z"
+      },
+      {
+        "id": 12,
+        "table_name": "bills",
+        "row_id": "C-MVTRL86D",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-29T16:35:21.638Z"
+      },
+      {
+        "id": 13,
+        "table_name": "bill_items",
+        "row_id": "undefined",
+        "action": "INSERT",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-29T16:35:27.516Z"
+      },
+      {
+        "id": 14,
+        "table_name": "profiles",
+        "row_id": "usr-mvtrm5v4",
+        "action": "USER_CREATE",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-29T16:36:05.296Z"
+      },
+      {
+        "id": 15,
+        "table_name": "bills",
+        "row_id": "C-MVTRMWUO",
+        "action": "INSERT",
+        "actor": "usr-mvtrm5v4",
+        "actor_name": "Carlos",
+        "at": "2026-10-29T16:36:40.272Z"
+      },
+      {
+        "id": 16,
+        "table_name": "bill_items",
+        "row_id": "undefined",
+        "action": "INSERT",
+        "actor": "usr-mvtrm5v4",
+        "actor_name": "Carlos",
+        "at": "2026-10-29T16:36:52.488Z"
+      },
+      {
+        "id": 17,
+        "table_name": "bills",
+        "row_id": "C-MVTRL86D",
+        "action": "UPDATE:conta_solicitada",
+        "actor": "usr-mvtrm5v4",
+        "actor_name": "Carlos",
+        "at": "2026-10-29T16:38:05.731Z"
+      },
+      {
+        "id": 18,
+        "table_name": "profiles",
+        "row_id": "adm-1",
+        "action": "UPDATE",
+        "actor": "super",
+        "actor_name": "Super Administrador",
+        "at": "2026-10-30T16:01:42.026Z"
+      }
+    ],
+    "role_permissions": [
+      {
+        "role": "gerente",
+        "permission": "day.open"
+      },
+      {
+        "role": "gerente",
+        "permission": "day.close"
+      },
+      {
+        "role": "gerente",
+        "permission": "cash.open"
+      },
+      {
+        "role": "gerente",
+        "permission": "cash.close"
+      },
+      {
+        "role": "gerente",
+        "permission": "sales.create"
+      },
+      {
+        "role": "gerente",
+        "permission": "sales.view"
+      },
+      {
+        "role": "gerente",
+        "permission": "sales.pay"
+      },
+      {
+        "role": "gerente",
+        "permission": "sales.discount"
+      },
+      {
+        "role": "gerente",
+        "permission": "sales.cancel"
+      },
+      {
+        "role": "gerente",
+        "permission": "tables.open"
+      },
+      {
+        "role": "gerente",
+        "permission": "bills.print"
+      },
+      {
+        "role": "gerente",
+        "permission": "invoices.view"
+      },
+      {
+        "role": "gerente",
+        "permission": "products.manage"
+      },
+      {
+        "role": "gerente",
+        "permission": "stock.view"
+      },
+      {
+        "role": "gerente",
+        "permission": "reports.view"
+      },
+      {
+        "role": "gerente",
+        "permission": "audit.view"
+      },
+      {
+        "role": "gerente",
+        "permission": "kds.view"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "invoices.create"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "invoices.view"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "stock.receive"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "stock.transfer"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "stock.issue"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "stock.view"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "products.manage"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "reports.view"
+      },
+      {
+        "role": "gestor_stock",
+        "permission": "kds.view"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "day.open"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "day.close"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "cash.open"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "cash.close"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "sales.create"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "sales.view"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "sales.pay"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "sales.discount"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "tables.open"
+      },
+      {
+        "role": "operador_caixa",
+        "permission": "bills.print"
+      },
+      {
+        "role": "vendedor",
+        "permission": "tables.open"
+      },
+      {
+        "role": "vendedor",
+        "permission": "bills.print"
+      },
+      {
+        "role": "vendedor",
+        "permission": "sales.create"
+      }
+    ],
+    "suppliers": [
+      {
+        "id": 1,
+        "name": "Distribuidora Exemplo",
+        "nuit": "",
+        "phone": "",
+        "email": "",
+        "notes": ""
+      }
+    ],
+    "time_entries": [],
+    "credit_payments": [],
+    "bar_counts": []
+  },
+  "seq": {
+    "customers": 1,
+    "tables": 12,
+    "bill_items": 5,
+    "movements": 0,
+    "invoices": 0,
+    "invitems": 0,
+    "audit": 18,
+    "suppliers": 1,
+    "time": 0,
+    "credit": 0
+  },
+  "exported_at": "2026-10-30T16:04:46.807Z",
+  "app": "PDV-WD",
+  "reason": "pre-limpeza-testes"
+}
